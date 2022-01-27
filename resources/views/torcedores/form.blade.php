@@ -99,11 +99,11 @@
                                     <label for="estado" class="form-label">Status</label>
                                     <select id="estado" class="form-select" name="ativo">
                                         <option value="1" {{($torcedor->ativo == '1') ? 'Selected' : ''}}>Ativo</option>
-                                        <option value="0" {{($torcedor->ativo == '0') ? 'Selected' : ''}}>Inatico</option>
+                                        <option value="0" {{($torcedor->ativo == '0') ? 'Selected' : ''}}>Inativo</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                    <button type="submit" class="btn btn-primary">Gravar</button>
                                 </div>
                             </form>
                         @else
@@ -181,11 +181,11 @@
                                     <label for="estado" class="form-label">Status</label>
                                     <select id="estado" class="form-select" name="ativo">
                                         <option value="1">Ativo</option>
-                                        <option value="0">Inatico</option>
+                                        <option value="0">Inativo</option>
                                     </select>
                                 </div>
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                    <button type="submit" class="btn btn-primary">Gravar</button>
                                 </div>
                             </form>
                         @endif
