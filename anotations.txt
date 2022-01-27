@@ -1,0 +1,2 @@
+composer req
+php artisan ui vue --auth
